@@ -12,8 +12,8 @@ const Chat = () => {
   };
 
   return (
-    <div className='flex w-full'>
-      <div className="bg-gray-800 h-screen w-80 border-r border-gray-600 flex flex-col gap-4">
+    <div className='flex w-full h-full'>
+      <div className="bg-gray-800 h-screen w-96 border-r border-gray-600 flex flex-col gap-4">
         <ul className="flex justify-between px-4 pt-4 items-center">
           <li className="text-white font-bold text-2xl flex items-center">Chats</li>
           <li 
