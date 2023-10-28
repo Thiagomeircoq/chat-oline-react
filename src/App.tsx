@@ -11,7 +11,7 @@ function App() {
         <div className='h-screen border-r border-gray-600'>
           <Sidebar />
         </div>
-        <div className='h-screen'>
+        <div className='h-screen w-full'>
           <Routes>
             <Route path='/chat' element={<Chat />}></Route>
             <Route path='/contact' element={<Contact />}></Route>
