@@ -17,7 +17,7 @@ const HeaderChat = ({ selectedContact }) => {
             <div className='flex gap-4'>
                 <img src={selectedContact.img} width={70} alt="" />
                 <div className='flex flex-col justify-center'>
-                <span className='text-gray-300 text-xl font-bold'>{selectedContact.name}</span>
+                <span className='text-gray-300 text-xl font-bold'>{selectedContact.nome}</span>
                 <span className='flex gap-2 items-center text-gray-300'>
                     <div className='w-2 h-2 rounded-full bg-emerald-400'></div>
                     Online
